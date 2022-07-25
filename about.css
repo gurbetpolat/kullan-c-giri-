@@ -1,0 +1,96 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+
+.header,a{
+    color:rgb(173, 6, 6);
+    text-decoration: none;
+    padding: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 25px;
+    margin-top: 20px;
+
+}
+
+header,a:focus{
+    box-shadow: 0 0 10px rgba(45, 10, 102, 0.9) ;
+}
+
+.about-slider{
+    display: flex;
+    align-items:center ;
+    justify-content: center;
+    min-height: 100vh;
+    text-align: center;
+   
+
+
+}
+.content{
+    display: flex;
+    align-items:center ;
+    justify-content: center;
+    min-height: 100vh;
+    text-align: center;
+    position: relative;
+}
+.images{
+    height: 400px;
+    width:750px ;
+    overflow: hidden;
+}
+
+.images img{
+    height: 100%;
+    width: 100%;
+}
+.btm-sliders{
+    position: absolute;
+   bottom: 0px;
+   left: 50%;
+   display: flex;
+   transform: translateX(-50%);
+
+}
+.btm-sliders span{
+ height: 15px;
+ width: 50px;
+border: 2px solid white;
+ margin: 0 3px;
+ cursor: pointer;
+
+}
+.btm-sliders span:hover{
+    background: white;
+}
+
+.content .slide{
+    position: absolute;
+    top:50%;
+    transform: translateY(-50%);
+    width: 45px;
+    border: 2px solid white;
+    background:rgba(255, 255, 255, 0.1) ;
+    cursor: pointer;
+}
+
+.content .slide:hover{
+    background:rgba(255, 255, 255, 0.2) ;
+}
+
+.slide span{
+    font-size:35px;
+    color: white;
+    line-height: 41px;
+    
+}
+.content .right{
+
+}
